@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kalkulator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container-fluid px-3">
+        <div class="row py-5">
+            <div class="col-xxl-3 col-lg-3 col-md-4 col-sm-6 mx-auto bg-dark rounded-4 shadow-sm p-3">
+                <input class="display form-control form-control-lg text-success text-end" id="display" type="text" autocomplete="off" name="display" value=""/>
+                <!-- numpad -->
+                <div class="container text-center">
+                    <div class="row row-cols-4 text-light mt-4">
+                        
+                        <input type="button" class="btn btn-dark text-success" id="clear" value="AC" >
+                        <input type="button" class="btn btn-dark math text-success" value="+/-">
+                        <input type="button" class="btn btn-dark math text-success"  value="%">
+                        <input type="button" class="btn btn-dark math text-danger" id="bagi" value="/">
+                        
+                        <input type="button" class="btn btn-dark num" value="7">
+                        <input type="button" class="btn btn-dark num" value="8">
+                        <input type="button" class="btn btn-dark num" value="9">
+                        <input type="button" class="btn btn-dark math text-danger" value="*">
+                        
+                        <input type="button" class="btn btn-dark num" value="4">
+                        <input type="button" class="btn btn-dark num" value="5">
+                        <input type="button" class="btn btn-dark num" value="6">
+                        <input type="button" class="btn btn-dark math text-danger" value="-">
+                        
+                        <input type="button" class="btn btn-dark num" value="1">
+                        <input type="button" class="btn btn-dark num" value="2">
+                        <input type="button" class="btn btn-dark num" value="3">
+                        <input type="button" class="btn btn-dark math text-danger" value="+">
+                        
+                        <input type="button" class="btn btn-dark num" id="backspace" value="C">
+                        <input type="button" class="btn btn-dark num" value="0">
+                        <input type="button" class="btn btn-dark num" value=".">
+                        <input type="button" class="btn btn-dark text-danger" id="equal" value="=">
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--/row-->
+        </div>
+        <!--container-->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
